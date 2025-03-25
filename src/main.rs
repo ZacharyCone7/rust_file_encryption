@@ -75,14 +75,14 @@ fn write_file(path: &str, data: &[u8]) {
 fn print_help_summary() {
     println!("{} encryptor [OPTIONS] --input <input_file> --output <output_file>", "Usage:".green().bold());
 
-    println!(
+ /*   println!(
         "\n{}:
         -c, --cipher <encrypt|e|decrypt|d> Set the cipher type [default: encrypt]
         -i, --input  <input_file> Set the input file
         -o, --output <output_file> Set the output file
         -h, --help    Print this help message (-h for summary)",
         "Options".bold()
-    );
+    );*/ //JDUB
 }
 
 // Main function: handles argument parsing and program flow.
